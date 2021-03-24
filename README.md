@@ -1,13 +1,13 @@
 # flutter_sqflite_module
 
-A basic Flutter prototype module that handle CRUD with Sqflite. For now it only stores the hardcoded data from the code.
+A basic Flutter prototype module that handle CRUD with Sqflite. It stores a data value given on the text field.
 
 ## Built With 🛠
 * [Sqflite](https://pub.dev/packages/sqflite) SQLite plugin for Flutter. 
 * [path_provider](https://pub.dev/packages/shared_preferences) A Flutter plugin for finding commonly used locations on the filesystem.
 
 ## Todo
-* [ ] Fetch CRUD with dynamic data.
+* [x] ~~Fetch CRUD with dynamic data~~.
 
 ## Note
 This module will not be perfected in all aspect. This module is a small part of a private project.
