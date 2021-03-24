@@ -1,7 +1,6 @@
 import 'dart:core';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sqflite_module/repos/DatabaseHelper.dart';
 import 'package:flutter_sqflite_module/repos/StoryDatabaseHelper.dart';
 import 'package:flutter_sqflite_module/repos/UserDatabaseHelper.dart';
 
@@ -21,7 +20,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final dbHelper = DatabaseHelper.instance;
   final userDbHelper = UserDatabaseHelper.instance;
   final storyDbHelper = StoryDatabaseHelper.instance;
 
